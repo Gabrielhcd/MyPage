@@ -15,13 +15,13 @@ function Header(props) {
 
                 </div>
                 <div className='col-3'>
-                    <a href="https://mx.linkedin.com/"
+                    <a href="https://www.linkedin.com/in/gabriel-carrasco-diaz-1s98/"
                         target='_blank'
                         rel='noopener noreferrer'
                     >
                         <img className='icons'src={linkedInIcon} />
                     </a>
-                    <a href="https://github.com/"
+                    <a href="https://github.com/Gabrielhcd"
                         target='_blank'
                         rel='noopener noreferrer'
                     >
