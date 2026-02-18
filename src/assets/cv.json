@@ -1,0 +1,105 @@
+{
+    "info": {
+        "name": "Gabriel Carrasco",
+        "title": "Software Engineer",
+        "email": "gabrielhcarrascod@gmail.com"
+    },
+    "summary": {
+        "profesional":"Backend developer with experience with agile projects. Focused on the enhancement, support and maintenance of microservices used for inventory, retail and pharmaceutical records. Basic experience of CI/CD focused on the deployment, testing and monitoring in multiple environments and services."
+    },
+    "technical" : {
+        "skills" : [
+            "Knowledge of Java and SpringBoot",
+            "Experience with SQL and Non-SQL type databases.",
+            "Basic Knowledge on CI/CD tools and process",
+            "Experience on containers with Docker",
+            "Data analysis for troubleshooting in microservices",
+            "Experience with retail and inventory systems.",
+            "Knowledge scripting with Python",
+            "Basic Knowledge of C/C++, Rust and Bash"
+        ],
+        "stack" : [
+            "Java",
+            "SpringBoot", 
+            "C/C++", 
+            "Docker", 
+            "Kubernetes", 
+            "Python", 
+            "Bash", 
+            "Kotlin", 
+            "PLSQL",
+            "JDK", 
+            "Maven", 
+            "Postman", 
+            "Jenkins", 
+            "Elastic Search", 
+            "Dynatrace", 
+            "New Relic", 
+            "PCF", 
+            "OpenShift", 
+            "JUnit",
+            "Mockito", 
+            "Linux(Ubuntu/linux-server)/Unix", 
+            "Kafka", 
+            "Oracle", 
+            "MySQL", 
+            "MongoDB", 
+            "Qt"
+        ],
+        "methodologies" : [
+            "SCRUM"
+        ]
+    },
+    "jobs" : [
+        {
+            "id": 1,
+            "contractor": "AgileThought",
+            "client": "Cigna",
+            "subtitle": "Java Developer",
+            "years": "Dec 2022 – April 2025",
+            "quickSummary" : "Java and SprinBoot developer, providing support to multiple environments code as well as infraestructure techonologies updates and enhancements",
+            "description": "Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance.Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance."
+        },
+        {   "id": 2,
+            "contractor": "AgileThought",
+            "client": "AutoZone",
+            "subtitle": "Java Developer",
+            "years": "April 2021 – Nov 2022",
+            "quickSummary" : "Mainteining and enhancing Java API. Providing releases to all environments as well as multi team support to related services.",
+            "description": "Java/SpringBoot developer in REST microservices. Maintaining code through enhancements and fixing functionality issues. Providing support to troubleshoot PROD incidents in real time, collaborating with multiple teams to stabilize and fix issues in multiple environments. DevOps support focused on deployment and releases. PROD and low-env deployments with Jenkins. Data analysis with Python and Excel. Analysis of retails systems with Elastic, Dynatrace and PCF."
+        },
+        {   "id": 3,
+            "contractor": "AgileThought",
+            "client": "AutoZone",
+            "subtitle": "C/C++ Developer",
+            "years": "Oct 2020 – April 2021",
+            "quickSummary" : "C/C++ development of retailing system. Low env testing and troubleshooting.",
+            "description": "Troubleshooting and maintenance of retail and inventory systems with C/C++ and Qt. Usage of Docker for building and running services. Analysis of the retail system. Troubleshooting and development in Linux/Unix based environment."
+        },
+        {   "id": 4,
+            "contractor": "AgileThought",
+            "client": "Intership",
+            "subtitle": "Java Developer",
+            "years": "Feb 2020 – Aug 2020",
+            "quickSummary" : "API development with Java and NonSQL database management.",
+            "description": "REST API developer with Java and SpringBoot. MongoDB setup and usage. Unit testing with JUnit and Mockito. APIs validation."
+        }
+    ],
+    "games": [
+        {
+            "gameName": "",
+            "platform": "",
+            "bShipped": false,
+            "images" : [
+
+            ],
+            "quickSummary": "",
+            "description": ""
+        }
+    ],
+    "education": {
+        "university": "Universidad de Colima",
+        "title": "Software Engineer",
+        "years": "2017 - 2021"
+    }
+}

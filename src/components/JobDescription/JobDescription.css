@@ -1,0 +1,45 @@
+.modal-container {
+    width: 60vw;
+    position: fixed;
+    top: 20vw;
+    left: 12vw;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: #1c1b1b;
+    color: white;
+    z-index: 10;
+}
+
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+}
+
+.title {
+    text-align: left;
+    color: #c0fe04;
+}
+
+.subTitle {
+    text-align: left;
+    color: #c0fe04;
+}
+
+.jobYears {
+    text-align: center;
+    color: #c0fe04;
+}
+
+.stack {
+    text-align: left;
+    color: #c0fe04;
+}

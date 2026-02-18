@@ -1,0 +1,13 @@
+.card-btm-text-style {
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 10%;
+    margin: 2%;
+    height: 7%;
+}
+
+.card-title:hover {
+    color: aqua;
+}
+

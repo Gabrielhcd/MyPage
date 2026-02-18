@@ -1,0 +1,9 @@
+.list-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-group-item {
+    background-color: #1c1b1b;
+    border-color: #1c1b1b;
+}
