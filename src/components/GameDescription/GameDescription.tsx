@@ -1,9 +1,16 @@
-import {useEffect, useRef} from 'react';
-import './JobDescription.css'
+import './GameDescription.css'
 
-function JobDescription({isOpen, onClose, title, subTitle, jobYears, description}) {
+import githubIcon from '../../assets/github-brands-solid-full.svg'
+
+function GameDescription({isOpen, onClose, title, 
+    platform, description, video, stack, assets, githubLink}) {
     var modalBackdrop = document.getElementsByClassName("modalBackdrop")[0]
-    if (!isOpen) return null;
+    if (!isOpen) {
+        document.body.style.overflow = 'unset'
+        return null;
+    }
+    
+    document.body.style.overflow = 'hidden'
 
     const handleContentClick = (e) => {
         e.stopPropagation();
@@ -41,13 +48,24 @@ function JobDescription({isOpen, onClose, title, subTitle, jobYears, description
     return(
         <>
             <div className='modalBackdrop'></div>
-            <div className='container modal-container-job' onClick={handleContentClick}>
+            <div className='container modal-container-game' onClick={handleContentClick}>
+                <button onClick={onClose} className='closeBtn col-3'>X</button>
                 <div className='row'>
+                    <video src={video} autoPlay loop muted></video>
                     <h3 className='col-8 title'>{title}</h3>
-                    <button onClick={onClose} className='col-4'>X</button>
                 </div>
-                <h4 className='subTitle'>{subTitle}</h4>
-                <h5 className='jobYears'>{jobYears}</h5>
+                <div className='row'>
+                    <h4 className='platform col-6'>{platform}</h4>
+                    <a href={githubLink}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='col-6'
+                        >
+                            <img className='icons' src={githubIcon}/>
+                    </a>
+                </div>
+                
+                <h5 className='assets'>{assets}</h5>
                 <p>{description}</p>
                 <h5 className='stack'>Stack</h5>
                 <div className='row'>
@@ -61,4 +79,4 @@ function JobDescription({isOpen, onClose, title, subTitle, jobYears, description
     )
 }
 
-export default JobDescription;
+export default GameDescription;

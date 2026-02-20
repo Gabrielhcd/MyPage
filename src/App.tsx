@@ -42,18 +42,18 @@ function App() {
     <SectionTitle titleSize="4" title="Games"/>
     <div className="container center">
       <div className='row justify-content-center'>
-        <Jobs
-          bHasVisual={true}
-          title="Client"
-          subTitle="job title"
-          description="Some quick example text to build on the card title and make up the bulk of the card’s content."
-            />
-        <Jobs
-          bHasVisual={true}
-          title="Client"
-          subTitle="job title"
-          description="Some quick example text to build on the card title and make up the bulk of the card’s content."
-            />
+        {cvJson.games.map((game) => (
+          <Jobs
+            bHasVisual={true}
+            title={game.gameName}
+            platform={game.platform}
+            stack={game.stack}
+            assets={game.assets}
+            smallDescription={game.quickSummary}
+            description={game.description}
+            videoPath={game.video}
+          />
+        ))}
       </div>
     </div>
     <SectionTitle titleSize="3" title="Education"/>
