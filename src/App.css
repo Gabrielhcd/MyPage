@@ -15,4 +15,5 @@ body {
   padding: 1em;
   background-color: #2d2d2d;
   color: whitesmoke;
+  cursor: url(/src/assets/CursorV1.png);
 }

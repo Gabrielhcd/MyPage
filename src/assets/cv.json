@@ -94,7 +94,7 @@
             "images" : [
                 
             ],
-            "video": "./public/UECourseShort.mov",
+            "video": "../../../public/UECourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike",
             "description": "UE5 begginers project to learn the basics of UE with C++. ",

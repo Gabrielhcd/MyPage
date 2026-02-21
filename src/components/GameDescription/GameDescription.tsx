@@ -49,7 +49,7 @@ function GameDescription({isOpen, onClose, title,
         <>
             <div className='modalBackdrop'></div>
             <div className='container modal-container-game' onClick={handleContentClick}>
-                <button onClick={onClose} className='closeBtn col-3'>X</button>
+                <button onClick={onClose} className='closeBtn col-3'>{"Back"}</button>
                 <div className='row'>
                     <video src={video} autoPlay loop muted></video>
                     <h3 className='col-8 title'>{title}</h3>
