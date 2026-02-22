@@ -18,7 +18,7 @@ function Jobs(props) {
 
     if (props.bHasVisual) {
         return(
-        <div className='card col-5' style={cardStyle}>
+        <div className='card-job col-5' style={cardStyle}>
             <Link to='/game-details' 
             style={{textDecoration: 'none',
                 color: 'white'
@@ -48,7 +48,7 @@ function Jobs(props) {
     }
     else {
         return(
-        <div className='card col-5' style={cardStyle}>
+        <div className='card-job col-5' style={cardStyle}>
             <div className='card-body' onClick={() => setIsOpen(true)}>
                     <h4 className='card-title'>{props.title}</h4>
                 <JobDescription isOpen={isOpen} onClose={() => setIsOpen(false)}
