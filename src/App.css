@@ -9,11 +9,11 @@
 
 body {
   background-color: #1c1b1b;
+  cursor: crosshair;
 }
 
 .card {
   padding: 1em;
   background-color: #2d2d2d;
   color: whitesmoke;
-  cursor: url(/src/assets/CursorV1.png);
 }

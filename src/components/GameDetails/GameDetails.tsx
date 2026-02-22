@@ -2,6 +2,7 @@ import './GameDetails.css'
 
 import githubIcon from '../../assets/github-brands-solid-full.svg'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
+import Cursor from '../CustomCursor/Cursor';
 
 function GameDetails(props) {
 
@@ -9,6 +10,7 @@ function GameDetails(props) {
 
     return(
         <>
+            <Cursor/>
             <div className='modalBackdrop'></div>
             <div className='container modal-container-game'>
                 <Link to='/'>
