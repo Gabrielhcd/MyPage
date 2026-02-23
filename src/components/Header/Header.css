@@ -13,7 +13,7 @@
 }
 
 .containerStyle {
-    background-color: #1c1b1b;
+    background-color: #1b1c1c;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -27,7 +27,7 @@
 }
 
 .icons:hover {
-    background-color: #e7104d;
+    background-color: #10e7e7fe;
 }
 
 .nameAndTitle {
