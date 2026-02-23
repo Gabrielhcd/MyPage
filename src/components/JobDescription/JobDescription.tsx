@@ -44,7 +44,7 @@ function JobDescription({isOpen, onClose, title, subTitle, jobYears, description
             <div className='container modal-container-job' onClick={handleContentClick}>
                 <div className='row'>
                     <h3 className='col-8 title'>{title}</h3>
-                    <button onClick={onClose} className='col-4'>X</button>
+                    <button className='closeBtn col-4' onClick={onClose}>X</button>
                 </div>
                 <h4 className='subTitle'>{subTitle}</h4>
                 <h5 className='jobYears'>{jobYears}</h5>

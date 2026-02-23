@@ -89,7 +89,7 @@
         {
             "gameName": "Untitled",
             "platform": "PC",
-            "githubLink" : "",
+            "githubLink" : "https://github.com/Gabrielhcd/UECourse",
             "bShipped": false,
             "images" : [
                 
@@ -102,7 +102,29 @@
             "stack": "UE-5.2, Blender, Git",
             "technologies": [
                 "UE-5.2",
-                "Blender",
+                "Blender-4.1",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameName": "Untitled",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/GASCourse",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "video": "../../../public/GASCourseShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Simple mechanic game to to play online using GAS",
+            "description": "Introductory project to GAS. Using current mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are for melee and range damage. Each with the same basic abilities but different usage for both to fit the type of attack better.",
+            "learning": "It is quite interesting (from a programmer standpoint) how GAS makes some of the work easier. Using the abilities and effects from the system makes pretty simple to use replication to get a good base online experience. Of course that even on a basic level it depends on how it is managed(the montage playing, the replication type, how events are handled and validated) it does provides a goodo entry point to make an online game.",
+            "stack": "UE-5.6, Blender, Git",
+            "technologies": [
+                "UE-5.6",
+                "Blender-4.1",
+                "Perforce",
                 "Git"
             ],
             "assets": ""
