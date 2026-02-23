@@ -33,6 +33,8 @@ function GameDetails(props) {
                 
                 <h5 className='assets'>{location.state.assets}</h5>
                 <p>{location.state.description}</p>
+                <h4>What I learned: </h4>
+                <p>{location.state.learning}</p>
                 <h5 className='stack'>Stack</h5>
                 <div className='row'>
                     <div className='col'>Java</div>

@@ -96,9 +96,15 @@
             ],
             "video": "../../../public/UECourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
-            "quickSummary": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike",
-            "description": "UE5 begginers project to learn the basics of UE with C++. ",
+            "quickSummary": "Simple action style game. Where you play as Dummy and try to kill the enemies on the desert land",
+            "description": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike. The project objective was to create a third person action style game and learning the basics of the editor and C++ framework. Since the point of making the the game was to learn UE5 I tried to take it slowly and research parts of editor more in deep for better understanding. Of course, since UE is its own monster (besides C++ and the UE-Framework) to be able to complete the project I mostly focus on making what the project suggested and just researching and do stuff in their own separated projects.",
+            "learning": "I learn a lot. But the key things that I got from this were how to use the C++ framework to create Base classes to them use them as BPs. How Animations (AnimMontages, AnimBPs, ThreadSafe, Notifys) work and make the game feel realistic. And something that I enjoyed was leveling(making the level) for landscaping and prototyping with the modeling tool and basic shapes, it does help a lot to have the basic structure of the map while testing features.",
             "stack": "UE-5.2, Blender, Git",
+            "technologies": [
+                "UE-5.2",
+                "Blender",
+                "Git"
+            ],
             "assets": ""
         }
     ],

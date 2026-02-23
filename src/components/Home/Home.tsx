@@ -65,6 +65,7 @@ function Home() {
                     smallDescription={game.quickSummary}
                     description={game.description}
                     videoPath={game.video}
+                    learning={game.learning}
                 />
                 ))}
             </div>

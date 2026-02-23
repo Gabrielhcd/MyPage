@@ -29,7 +29,8 @@ function Jobs(props) {
                 platform: props.platform,
                 githubLink: props.githubLink,
                 assets: props.assets,
-                description: props.description
+                description: props.description,
+                learning: props.learning
                 }}>
                 <video src={props.videoPath} className='card-img-top' autoPlay loop muted>
                     <img src={kitty} className='card-img-top'/>
