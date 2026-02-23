@@ -36,12 +36,13 @@ function GameDetails(props) {
                 <h4>What I learned: </h4>
                 <p>{location.state.learning}</p>
                 <h5 className='stack'>Stack</h5>
-                <div className='row'>
-                    <div className='col'>Java</div>
-                    <div className='col'>SB</div>
-                    <div className='col'>Docker</div>
-                    <div className='col'>Jenkins</div>
-                </div>
+                <ul className='list-group list-group-horizontal-md flex-row'>
+                    {location.state.stack.map((tech) => (
+                        <li className='list-group-item'>
+                        <span className='badge text-bg-secondary rounded-pill'>{tech}</span>
+                    </li>
+                    ))}
+                </ul>
             </div>
         </>
     )

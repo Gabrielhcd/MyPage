@@ -1,7 +1,7 @@
 import {useEffect, useRef} from 'react';
 import './JobDescription.css'
 
-function JobDescription({isOpen, onClose, title, subTitle, jobYears, description}) {
+function JobDescription({isOpen, onClose, title, subTitle, jobYears, description, stack}) {
     var modalBackdrop = document.getElementsByClassName("modalBackdrop")[0]
     if (!isOpen) return null;
 
@@ -16,28 +16,6 @@ function JobDescription({isOpen, onClose, title, subTitle, jobYears, description
         }
     }
 
-
-
-    /*const useClickOutside = (callback) => {
-        const ref = useRef(null);
-
-        useEffect(() => {
-            const handleClickOutside = (event) => {
-                if (ref.current && !ref.current.contains(event.target)) {
-                    callback();
-                }
-            };
-
-            document.addEventListener('mousedown', handleClickOutside);
-
-            return () => {
-                document.removeEventListener('mousedown', handleClickOutside);
-            };
-        }, [callback]);
-
-        return ref;
-    };*/
-
     return(
         <>
             <div className='modalBackdrop'></div>
@@ -50,12 +28,13 @@ function JobDescription({isOpen, onClose, title, subTitle, jobYears, description
                 <h5 className='jobYears'>{jobYears}</h5>
                 <p>{description}</p>
                 <h5 className='stack'>Stack</h5>
-                <div className='row'>
-                    <div className='col'>Java</div>
-                    <div className='col'>SB</div>
-                    <div className='col'>Docker</div>
-                    <div className='col'>Jenkins</div>
-                </div>
+                <ul className='list-group list-group-horizontal-md flex-row'>
+                    {stack.map((tech) => (
+                        <li className='list-group-item'>
+                        <span className='badge text-bg-success rounded-pill'>{tech}</span>
+                    </li>
+                    ))}
+                </ul>
             </div>
         </>
     )

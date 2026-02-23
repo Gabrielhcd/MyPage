@@ -24,7 +24,8 @@
             "C/C++", 
             "Docker", 
             "Kubernetes", 
-            "Python", 
+            "Python",
+            "Jira",
             "Bash", 
             "Kotlin", 
             "PLSQL",
@@ -58,7 +59,20 @@
             "subtitle": "Java Developer",
             "years": "Dec 2022 – April 2025",
             "quickSummary" : "Java and SprinBoot developer, providing support to multiple environments code as well as infraestructure techonologies updates and enhancements",
-            "description": "Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance.Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance."
+            "description": "Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance.Enhancement developer for Java/SpringBoot microservices. Service upgrades and migrations in technologies used along the software life cycle. Usage and user-end configuration of Docker/Kubernetes for service deployment and scaling across multiple environments hosted in OpenShift. PL SQL analysis of Java logic migration. Low environment functionality testing. Service monitoring with New Relic and Splunk. Linux/Unix usage for application hosting and analysis/maintenance.",
+            "mainStack": [
+                "Java-8",
+                "Java-11",
+                "SpringBoot",
+                "OpenShift",
+                "Kubernetes",
+                "OracleDB",
+                "MongoDB",
+                "Jenkins",
+                "OrchestratorV2",
+                "PL/SQL",
+                "PCF"
+            ]
         },
         {   "id": 2,
             "contractor": "AgileThought",
@@ -66,7 +80,16 @@
             "subtitle": "Java Developer",
             "years": "April 2021 – Nov 2022",
             "quickSummary" : "Mainteining and enhancing Java API. Providing releases to all environments as well as multi team support to related services.",
-            "description": "Java/SpringBoot developer in REST microservices. Maintaining code through enhancements and fixing functionality issues. Providing support to troubleshoot PROD incidents in real time, collaborating with multiple teams to stabilize and fix issues in multiple environments. DevOps support focused on deployment and releases. PROD and low-env deployments with Jenkins. Data analysis with Python and Excel. Analysis of retails systems with Elastic, Dynatrace and PCF."
+            "description": "Java/SpringBoot developer in REST microservices. Maintaining code through enhancements and fixing functionality issues. Providing support to troubleshoot PROD incidents in real time, collaborating with multiple teams to stabilize and fix issues in multiple environments. DevOps support focused on deployment and releases. PROD and low-env deployments with Jenkins. Data analysis with Python and Excel. Analysis of retails systems with Elastic, Dynatrace and PCF.",
+            "mainStack": [
+                "Java-8",
+                "SpringBoot",
+                "Jenkins",
+                "Kafka",
+                "PCF",
+                "Elastic",
+                "Dynatrace"
+            ]
         },
         {   "id": 3,
             "contractor": "AgileThought",
@@ -74,7 +97,14 @@
             "subtitle": "C/C++ Developer",
             "years": "Oct 2020 – April 2021",
             "quickSummary" : "C/C++ development of retailing system. Low env testing and troubleshooting.",
-            "description": "Troubleshooting and maintenance of retail and inventory systems with C/C++ and Qt. Usage of Docker for building and running services. Analysis of the retail system. Troubleshooting and development in Linux/Unix based environment."
+            "description": "Troubleshooting and maintenance of retail and inventory systems with C/C++ and Qt. Usage of Docker for building and running services. Analysis of the retail system. Troubleshooting and development in Linux/Unix based environment.",
+            "mainStack": [
+                "C++11",
+                "Qt",
+                "Linux",
+                "Docker",
+                "Linux Server"
+            ]
         },
         {   "id": 4,
             "contractor": "AgileThought",
@@ -82,7 +112,14 @@
             "subtitle": "Java Developer",
             "years": "Feb 2020 – Aug 2020",
             "quickSummary" : "API development with Java and NonSQL database management.",
-            "description": "REST API developer with Java and SpringBoot. MongoDB setup and usage. Unit testing with JUnit and Mockito. APIs validation."
+            "description": "REST API developer with Java and SpringBoot. MongoDB setup and usage. Unit testing with JUnit and Mockito. APIs validation.",
+            "mainStack": [
+                "Java-11",
+                "SpringBoot",
+                "MongoDB",
+                "JUnit",
+                "Mockito"
+            ]
         }
     ],
     "games": [

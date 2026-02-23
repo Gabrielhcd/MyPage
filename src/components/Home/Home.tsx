@@ -46,6 +46,7 @@ function Home() {
                     years={job.years}
                     smallDescription={job.quickSummary}
                     description={job.description}
+                    stack={job.mainStack}
                 />
                 ))}
                 
@@ -66,6 +67,7 @@ function Home() {
                     description={game.description}
                     videoPath={game.video}
                     learning={game.learning}
+                    technologies={game.technologies}
                 />
                 ))}
             </div>

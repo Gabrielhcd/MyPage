@@ -30,7 +30,8 @@ function Jobs(props) {
                 githubLink: props.githubLink,
                 assets: props.assets,
                 description: props.description,
-                learning: props.learning
+                learning: props.learning,
+                stack: props.technologies
                 }}>
                 <video src={props.videoPath} className='card-img-top' autoPlay loop muted>
                     <img src={kitty} className='card-img-top'/>
@@ -57,6 +58,7 @@ function Jobs(props) {
                     subTitle={props.subTitle}
                     jobYears={props.years}
                     description={props.description}
+                    stack={props.stack}
                     />
                 <h3 className='card-subtitle'>{props.subTitle}</h3>
                 <p className='card-text'>{props.smallDescription}</p>
