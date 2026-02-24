@@ -3,7 +3,12 @@ import './Header.css'
 import linkedInIcon from '../../assets/linkedin-brands-solid-full.svg'
 import githubIcon from '../../assets/github-brands-solid-full.svg'
 
-function Header(props) {
+interface HeaderProps {
+    name: string;
+    title: string;
+}
+
+function Header(props: HeaderProps) {
     return(
         <div className="container text center containerStyle">
             <div className='row'>

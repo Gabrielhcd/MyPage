@@ -1,10 +1,10 @@
 import './GameDetails.css'
 
 import githubIcon from '../../assets/github-brands-solid-full.svg'
-import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Cursor from '../CustomCursor/Cursor';
 
-function GameDetails(props) {
+function GameDetails() {
 
     const location = useLocation();
 
@@ -13,7 +13,7 @@ function GameDetails(props) {
             <Cursor/>
             <div className='modalBackdrop'></div>
             <div className='container modal-container-game'>
-                <Link to='/'>
+                <Link to='/ghcd'>
                     <button className='closeBtn col-3'>{"Back"}</button>
                 </Link>
                 <div className='row'>
@@ -37,7 +37,7 @@ function GameDetails(props) {
                 <p>{location.state.learning}</p>
                 <h5 className='stack'>Stack</h5>
                 <ul className='list-group list-group-horizontal-md flex-row'>
-                    {location.state.stack.map((tech) => (
+                    {location.state.stack.map((tech: String) => (
                         <li className='list-group-item'>
                         <span className='badge text-bg-secondary rounded-pill'>{tech}</span>
                     </li>

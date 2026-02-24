@@ -6,15 +6,29 @@ import JobDescription from '../JobDescription/JobDescription';
 
 import { Link } from 'react-router-dom';
 
-function Jobs(props) {
+interface JobsProps {
+    bHasVisual: Boolean;
+    videoPath: string;
+    title: String;
+    platform: String;
+    githubLink: String;
+    assets: String;
+    description: String;
+    learning: String;
+    technologies: String;
+    stack: string[];
+    smallDescription: String;
+    subTitle: String;
+    years: String;
+}
+
+function Jobs(props: JobsProps) {
 
     const [isOpen, setIsOpen] = useState(false);
 
     const cardStyle = {
         margin: 10,
     }
-
-    const gameDetailsProps = {}
 
     if (props.bHasVisual) {
         return(

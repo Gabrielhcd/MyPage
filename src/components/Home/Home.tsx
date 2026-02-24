@@ -9,20 +9,10 @@ import SectionTitle from '..//SectionTitle/SectionTitle'
 
 import cvJson from '../../assets/cv.json'
 
-import cursor from '../../assets/CursorV1.png'
-
 
 import Cursor from '../CustomCursor/Cursor'
 
 function Home() {
-
-    /*const customCursor = document.querySelector('.custom-cursor');
-
-    if (!customCursor === null) {
-        document.addEventListener('mousemove', (e) => {
-        customCursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
-        })
-    }*/
 
     return (
         <>

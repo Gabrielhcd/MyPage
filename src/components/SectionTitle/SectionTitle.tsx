@@ -1,6 +1,11 @@
 import './SectionTitle.css'
 
-function SectionTitle(props) {
+interface SectionTitleProps {
+    titleSize: string;
+    title: String;
+}
+
+function SectionTitle(props: SectionTitleProps) {
     if (props.titleSize === "2") {
         return(
         <div className="container" style={{ backgroundColor: ''}}>

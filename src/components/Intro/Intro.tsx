@@ -1,8 +1,10 @@
 import './Intro.css'
 
-import cvJson from '../../assets/cv.json'
+interface IntroProps {
+    summary: string;
+}
 
-function Intro(props) {
+function Intro(props: IntroProps) {
     return(
         <div className="container text center" style={{ backgroundColor: ''}}>
             <div className='row'>

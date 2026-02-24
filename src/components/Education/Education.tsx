@@ -1,6 +1,13 @@
 import './Education.css'
 
-function Education(props) {
+interface EducationProps {
+    university: string;
+    years: string;
+    title: string;
+    degree: string;
+}
+
+function Education(props: EducationProps) {
     return(
         <div className="container text center">
             <div className="card">

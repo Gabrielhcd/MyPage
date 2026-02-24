@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState, useLayoutEffect} from "react";
+import {useRef, useEffect, useState} from "react";
 
 import './Cursor.css'
 
@@ -8,15 +8,18 @@ const useMousePosition = () => {
     const root = document.querySelector('#root');
 
         useEffect(() => {
-            const handleMouseMove = (e) => {
+            const handleMouseMove = (e: MouseEvent) => {
 
                 const rect = body?.getBoundingClientRect();
                 const rectR = root?.getBoundingClientRect();
 
-                setPosition({
+                if (rect && rectR) {
+                    setPosition({
                     x: e.clientX - rect?.left - rectR?.left, 
                     y: e.clientY - 35
                 })
+                }
+
             };
 
             document.addEventListener('mousemove', handleMouseMove);
@@ -30,7 +33,7 @@ const useMousePosition = () => {
 };
 
 const Cursor = () => {
-    const cursorRef = useRef(null)
+    const cursorRef = useRef<HTMLInputElement>(null)
     const {x, y} = useMousePosition();
 
     useEffect(() => {
