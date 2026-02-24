@@ -13,7 +13,7 @@ function GameDetails() {
             <Cursor/>
             <div className='modalBackdrop'></div>
             <div className='container modal-container-game'>
-                <Link to='/ghcd'>
+                <Link to='/MyPage'>
                     <button className='closeBtn col-3'>{"Back"}</button>
                 </Link>
                 <div className='row'>

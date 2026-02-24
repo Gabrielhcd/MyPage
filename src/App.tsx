@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/ghcd' element={<Home/>} />
+        <Route path='/MyPage' element={<Home/>} />
         <Route path='/game-details' Component={GameDetails}/>
       </Routes>
     </>
