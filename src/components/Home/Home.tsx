@@ -57,7 +57,7 @@ function Home() {
                     assets={game.assets}
                     smallDescription={game.quickSummary}
                     description={game.description}
-                    videoPath={game.video}
+                    videoPath={import.meta.env.BASE_URL+game.video}
                     learning={game.learning}
                     technologies={game.technologies}
                 />

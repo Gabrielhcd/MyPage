@@ -124,6 +124,7 @@
     ],
     "games": [
         {
+            "gameId": "1",
             "gameName": "Untitled",
             "platform": "PC",
             "githubLink" : "https://github.com/Gabrielhcd/UECourse",
@@ -131,7 +132,7 @@
             "images" : [
                 
             ],
-            "video": "../../../public/UECourseShort.mov",
+            "video": "/UECourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Simple action style game. Where you play as Dummy and try to kill the enemies on the desert land",
             "description": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike. The project objective was to create a third person action style game and learning the basics of the editor and C++ framework. Since the point of making the the game was to learn UE5 I tried to take it slowly and research parts of editor more in deep for better understanding. Of course, since UE is its own monster (besides C++ and the UE-Framework) to be able to complete the project I mostly focus on making what the project suggested and just researching and do stuff in their own separated projects.",
@@ -145,6 +146,7 @@
             "assets": ""
         },
         {
+            "gameId": "2",
             "gameName": "Untitled",
             "platform": "PC",
             "githubLink" : "https://github.com/Gabrielhcd/GASCourse",
@@ -152,7 +154,7 @@
             "images" : [
                 
             ],
-            "video": "../../../public/GASCourseShort.mov",
+            "video": "/GASCourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Simple mechanic game to to play online using GAS",
             "description": "Introductory project to GAS. Using current mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are for melee and range damage. Each with the same basic abilities but different usage for both to fit the type of attack better.",
