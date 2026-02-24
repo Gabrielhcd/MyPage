@@ -50,6 +50,8 @@ function Home() {
                 <Jobs
                     bHasVisual={true}
                     title={game.gameName}
+                    subTitle={""}
+                    years={""}
                     platform={game.platform}
                     stack={game.stack}
                     assets={game.assets}

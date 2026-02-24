@@ -8,7 +8,7 @@ interface JobDescriptionProps {
     subTitle: String;
     jobYears: String;
     description: String;
-    stack: string[];
+    apiStack: string[];
 }
 
 function JobDescription(props: JobDescriptionProps) {
@@ -39,7 +39,7 @@ function JobDescription(props: JobDescriptionProps) {
                 <p>{props.description}</p>
                 <h5 className='stack'>Stack</h5>
                 <ul className='list-group list-group-horizontal-md flex-row'>
-                    {props.stack.map((tech: String) => (
+                    {props.apiStack.map((tech: String) => (
                         <li className='list-group-item'>
                         <span className='badge text-bg-success rounded-pill'>{tech}</span>
                     </li>

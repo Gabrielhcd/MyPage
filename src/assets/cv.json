@@ -136,7 +136,7 @@
             "quickSummary": "Simple action style game. Where you play as Dummy and try to kill the enemies on the desert land",
             "description": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike. The project objective was to create a third person action style game and learning the basics of the editor and C++ framework. Since the point of making the the game was to learn UE5 I tried to take it slowly and research parts of editor more in deep for better understanding. Of course, since UE is its own monster (besides C++ and the UE-Framework) to be able to complete the project I mostly focus on making what the project suggested and just researching and do stuff in their own separated projects.",
             "learning": "I learn a lot. But the key things that I got from this were how to use the C++ framework to create Base classes to them use them as BPs. How Animations (AnimMontages, AnimBPs, ThreadSafe, Notifys) work and make the game feel realistic. And something that I enjoyed was leveling(making the level) for landscaping and prototyping with the modeling tool and basic shapes, it does help a lot to have the basic structure of the map while testing features.",
-            "stack": "UE-5.2, Blender, Git",
+            "stack": [],
             "technologies": [
                 "UE-5.2",
                 "Blender-4.1",
@@ -157,7 +157,7 @@
             "quickSummary": "Simple mechanic game to to play online using GAS",
             "description": "Introductory project to GAS. Using current mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are for melee and range damage. Each with the same basic abilities but different usage for both to fit the type of attack better.",
             "learning": "It is quite interesting (from a programmer standpoint) how GAS makes some of the work easier. Using the abilities and effects from the system makes pretty simple to use replication to get a good base online experience. Of course that even on a basic level it depends on how it is managed(the montage playing, the replication type, how events are handled and validated) it does provides a goodo entry point to make an online game.",
-            "stack": "UE-5.6, Blender, Git",
+            "stack": [],
             "technologies": [
                 "UE-5.6",
                 "Blender-4.1",

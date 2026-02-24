@@ -7,17 +7,17 @@ import JobDescription from '../JobDescription/JobDescription';
 import { Link } from 'react-router-dom';
 
 interface JobsProps {
-    bHasVisual: Boolean;
-    videoPath: string;
+    bHasVisual?: Boolean;
+    videoPath?: string;
     title: String;
-    platform: String;
-    githubLink: String;
-    assets: String;
+    platform?: String;
+    githubLink?: String;
+    assets?: String;
     description: String;
-    learning: String;
-    technologies: String;
+    learning?: String;
+    technologies?: string[];
     stack: string[];
-    smallDescription: String;
+    smallDescription?: String;
     subTitle: String;
     years: String;
 }
@@ -67,12 +67,14 @@ function Jobs(props: JobsProps) {
         <div className='card-job col-5' style={cardStyle}>
             <div className='card-body' onClick={() => setIsOpen(true)}>
                     <h4 className='card-title'>{props.title}</h4>
-                <JobDescription isOpen={isOpen} onClose={() => setIsOpen(false)}
+                <JobDescription 
+                    isOpen={isOpen} 
+                    onClose={() => setIsOpen(false)}
                     title={props.title}
                     subTitle={props.subTitle}
                     jobYears={props.years}
                     description={props.description}
-                    stack={props.stack}
+                    apiStack={props.stack}
                     />
                 <h3 className='card-subtitle'>{props.subTitle}</h3>
                 <p className='card-text'>{props.smallDescription}</p>
