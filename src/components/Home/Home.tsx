@@ -60,6 +60,7 @@ function Home() {
                     videoPath={import.meta.env.BASE_URL+game.video}
                     learning={game.learning}
                     technologies={game.technologies}
+                    devTech={game.devTechnology}
                 />
                 ))}
             </div>

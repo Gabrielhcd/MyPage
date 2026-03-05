@@ -138,6 +138,7 @@
             "description": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike. The project objective was to create a third person action style game and learning the basics of the editor and C++ framework. Since the point of making the the game was to learn UE5 I tried to take it slowly and research parts of editor more in deep for better understanding. Of course, since UE is its own monster (besides C++ and the UE-Framework) to be able to complete the project I mostly focus on making what the project suggested and just researching and do stuff in their own separated projects.",
             "learning": "I learn a lot. But the key things that I got from this were how to use the C++ framework to create Base classes to them use them as BPs. How Animations (AnimMontages, AnimBPs, ThreadSafe, Notifys) work and make the game feel realistic. And something that I enjoyed was leveling(making the level) for landscaping and prototyping with the modeling tool and basic shapes, it does help a lot to have the basic structure of the map while testing features.",
             "stack": [],
+            "devTechnology": "UE5",
             "technologies": [
                 "UE-5.2",
                 "Blender-4.1",
@@ -156,14 +157,37 @@
             ],
             "video": "/GASCourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
-            "quickSummary": "Simple mechanic game to to play online using GAS",
+            "quickSummary": "Simple mechanic game to play online using GAS",
             "description": "Introductory project to GAS. Using current mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are for melee and range damage. Each with the same basic abilities but different usage for both to fit the type of attack better.",
             "learning": "It is quite interesting (from a programmer standpoint) how GAS makes some of the work easier. Using the abilities and effects from the system makes pretty simple to use replication to get a good base online experience. Of course that even on a basic level it depends on how it is managed(the montage playing, the replication type, how events are handled and validated) it does provides a goodo entry point to make an online game.",
             "stack": [],
+            "devTechnology": "UE5",
             "technologies": [
                 "UE-5.6",
                 "Blender-4.1",
                 "Perforce",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "3",
+            "gameName": "Delivery",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "video": "/GASCourseShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Pick and deliver icecream to the hungry neighbors.",
+            "description": "Begginers project to learn Unity editor. The objective of the game is to drive around a small neighborhood picking up packages and deliver them to the right monsters. You can get speed boosters along the road, however if you bump into the fences or the trees your speed will drop back, try and optimize the route to deliver faster!",
+            "learning": "Given that this is the very first time that I jump into Unity, everything was new and a learning oportunity, however since I have been using UE for some time now it was faster to pick up the pace and understanding conceps. Using sprites does feel different than laying 3D objects it can get really messy though if you don't use a proper order for them. Collisions and Triggers have certain similarity to UE to it was easy to understand how to use them. The same with the base methods for a class(Start & Update that work like BeginPlay and Tick) overall. Unity for 2D development is really interesting and I'll be looking to learn the editor and C# better.",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
                 "Git"
             ],
             "assets": ""

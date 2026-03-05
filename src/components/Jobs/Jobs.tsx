@@ -20,6 +20,7 @@ interface JobsProps {
     smallDescription?: String;
     subTitle: String;
     years: String;
+    devTech?: string;
 }
 
 function Jobs(props: JobsProps) {
@@ -51,7 +52,7 @@ function Jobs(props: JobsProps) {
                     <img src={kitty} className='card-img-top'/>
                 </video>
                     <div className='card-btm-text-style' style={{}}>
-                        <p>UE5</p>
+                        <p>{props.devTech}</p>
                     </div>
                 <div className='card-body'>
                     <h4 className='card-title'>{props.title}</h4>
