@@ -179,7 +179,7 @@
             "images" : [
                 
             ],
-            "video": "/GASCourseShort.mov",
+            "video": "/DeliveryShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Pick and deliver icecream to the hungry neighbors.",
             "description": "Begginers project to learn Unity editor. The objective of the game is to drive around a small neighborhood picking up packages and deliver them to the right monsters. You can get speed boosters along the road, however if you bump into the fences or the trees your speed will drop back, try and optimize the route to deliver faster!",
