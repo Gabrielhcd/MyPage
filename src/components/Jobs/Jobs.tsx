@@ -1,6 +1,8 @@
 import './Jobs.css'
 
 import kitty from '../../assets/typing-typing-furiously.gif'
+import booksIcon from '../../assets/books.png'
+import hammerIcon from '../../assets/thor.png'
 import { useState } from 'react';
 import JobDescription from '../JobDescription/JobDescription';
 
@@ -21,6 +23,7 @@ interface JobsProps {
     subTitle: String;
     years: String;
     devTech?: string;
+    gameTypeIcon?: string;
 }
 
 function Jobs(props: JobsProps) {
@@ -29,6 +32,13 @@ function Jobs(props: JobsProps) {
 
     const cardStyle = {
         margin: 10,
+    }
+
+    let icon;
+    if (props.gameTypeIcon == "book") {
+        icon = <img src={booksIcon} className='icons' id='jobIcons'/>
+    } else if (props.gameTypeIcon == "hammer") {
+        icon = <img src={hammerIcon} className='icons' id='jobIcons'/>
     }
 
     if (props.bHasVisual) {
@@ -48,6 +58,7 @@ function Jobs(props: JobsProps) {
                 learning: props.learning,
                 stack: props.technologies
                 }}>
+                {icon}
                 <video src={props.videoPath} className='card-img-top' autoPlay loop muted>
                     <img src={kitty} className='card-img-top'/>
                 </video>

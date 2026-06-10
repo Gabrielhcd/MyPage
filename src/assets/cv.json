@@ -5,7 +5,7 @@
         "email": "gabrielhcarrascod@gmail.com"
     },
     "summary": {
-        "profesional":"Backend developer with experience with agile projects. Focused on the enhancement, support and maintenance of microservices used for inventory, retail and pharmaceutical records. Basic experience of CI/CD focused on the deployment, testing and monitoring in multiple environments and services."
+        "profesional":"Backend developer with experience in agile projects. Focused on the enhancement, support and maintenance of microservices used for inventory, retail and pharmaceutical records. Basic experience of CI/CD focused on the deployment, testing and monitoring in multiple environments and services."
     },
     "technical" : {
         "skills" : [
@@ -46,6 +46,16 @@
             "MySQL", 
             "MongoDB", 
             "Qt"
+        ],
+        "gameStack" : [
+            "Unity 6.3",
+            "C#",
+            "Blender 4.1",
+            "Aseprite",
+            "EmberGen",
+            "UE5",
+            "C++"
+            
         ],
         "methodologies" : [
             "SCRUM"
@@ -132,11 +142,13 @@
             "images" : [
                 
             ],
+            "gameTypeIcon": "book",
             "video": "/UECourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Simple action style game. Where you play as Dummy and try to kill the enemies on the desert land",
-            "description": "Begginers UE5 project from Udemy. Focused on the general tools and good practices from the editor and code alike. The project objective was to create a third person action style game and learning the basics of the editor and C++ framework. Since the point of making the the game was to learn UE5 I tried to take it slowly and research parts of editor more in deep for better understanding. Of course, since UE is its own monster (besides C++ and the UE-Framework) to be able to complete the project I mostly focus on making what the project suggested and just researching and do stuff in their own separated projects.",
-            "learning": "I learn a lot. But the key things that I got from this were how to use the C++ framework to create Base classes to them use them as BPs. How Animations (AnimMontages, AnimBPs, ThreadSafe, Notifys) work and make the game feel realistic. And something that I enjoyed was leveling(making the level) for landscaping and prototyping with the modeling tool and basic shapes, it does help a lot to have the basic structure of the map while testing features.",
+            "description": "UE5 begginers project. The project was focused on creating a 3rd person action style game with popular core features. Like multiple weapons, currencies and enemies. The game uses provided and downloaded asssets from Mixamo (skins and animations) incorporated with C++ code and BPs alike.",
+            "learning": "The key things that I got from this were how to use the C++ framework to create Base classes to them use them as BPs. How Animations (AnimMontages, AnimBPs, ThreadSafe, Notifys) work and make the game feel realistic. And something that I enjoyed was leveling(making the level) for landscaping and prototyping with the modeling tool and basic shapes, it does help a lot to have the basic structure of the map while testing features.",
+            "keyFeatures": "The game contains multiple movesets for each weapon type. Following the more common action style games.",
             "stack": [],
             "devTechnology": "UE5",
             "technologies": [
@@ -155,11 +167,13 @@
             "images" : [
                 
             ],
+            "gameTypeIcon": "book",
             "video": "/GASCourseShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Simple mechanic game to play online using GAS",
-            "description": "Introductory project to GAS. Using current mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are for melee and range damage. Each with the same basic abilities but different usage for both to fit the type of attack better.",
+            "description": "Introductory project to GAS. Using mainly Paragon assets to learn how does GAS work. The game is a third person moba style game. Using the character Bear from the Fab and assigning 2 abilities(GameplayAbilities) and 2 enemies that can take and do damage. The enemies are melee and range type. Each with the same basic abilities but different usage for both to fit the type of attack better.",
             "learning": "It is quite interesting (from a programmer standpoint) how GAS makes some of the work easier. Using the abilities and effects from the system makes pretty simple to use replication to get a good base online experience. Of course that even on a basic level it depends on how it is managed(the montage playing, the replication type, how events are handled and validated) it does provides a goodo entry point to make an online game.",
+            "keyFeatures": "",
             "stack": [],
             "devTechnology": "UE5",
             "technologies": [
@@ -179,11 +193,58 @@
             "images" : [
                 
             ],
+            "gameTypeIcon": "book",
             "video": "/DeliveryShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Pick and deliver icecream to the hungry neighbors.",
             "description": "Begginers project to learn Unity editor. The objective of the game is to drive around a small neighborhood picking up packages and deliver them to the right monsters. You can get speed boosters along the road, however if you bump into the fences or the trees your speed will drop back, try and optimize the route to deliver faster!",
             "learning": "Given that this is the very first time that I jump into Unity, everything was new and a learning oportunity, however since I have been using UE for some time now it was faster to pick up the pace and understanding conceps. Using sprites does feel different than laying 3D objects it can get really messy though if you don't use a proper order for them. Collisions and Triggers have certain similarity to UE to it was easy to understand how to use them. The same with the base methods for a class(Start & Update that work like BeginPlay and Tick) overall. Unity for 2D development is really interesting and I'll be looking to learn the editor and C# better.",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "4",
+            "gameName": "SnowSurfer",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/SnowSurferShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Try and reach the goal whithout slipping or falling.",
+            "description": "2D game where you to have to keep balance and reach the goal flag at the end of a mountain. This short game focuses on keeping balance while moving in a single direction picking up buffs and secrets",
+            "learning": "Adjusting different type of collisions to a forced impulsed object can be interesting, since it can make some bugs happen depending on the speed. Alse, using multiple amount of shape collision to achive different behaviors is really practical, but can be a little misleading when they interact",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "5",
+            "gameName": "SnowSurfer",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/TileBrosShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "MetroidVania inspired game.",
+            "description": "",
+            "learning": "",
             "stack": [],
             "devTechnology": "Unity",
             "technologies": [
@@ -197,5 +258,11 @@
         "university": "Universidad de Colima",
         "title": "Software Engineer",
         "years": "2017 - 2021"
+    },
+    "other": {
+        "title": "Part of the GBTN community",
+        "time": "Since 2026",
+        "description": "The Global Beta Test Network gives players the opportunity to do just that while getting paid for their participation.",
+        "resources": "link"
     }
 }

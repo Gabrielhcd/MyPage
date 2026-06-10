@@ -39,3 +39,10 @@
     background: var(--color);
 }
 
+#jobIcons {
+    background-color: #09cebd;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+

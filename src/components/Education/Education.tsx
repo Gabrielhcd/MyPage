@@ -14,7 +14,7 @@ function Education(props: EducationProps) {
                 <div className="card-body">
                     <h5 className="card-title">{props.university}</h5>
                     <p>{props.years}</p>
-                    <h6 className="card-subtitle mb-2 text-body-secondary">{props.title}</h6>
+                    <h4 className="card-subtitle mb-2" id='Ed-title'>{props.title}</h4>
                     <h5>{props.degree}</h5>
                 </div>
             </div>
