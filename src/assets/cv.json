@@ -211,7 +211,7 @@
             "gameId": "4",
             "gameName": "SnowSurfer",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "githubLink" : "https://github.com/Gabrielhcd/SnowSurfer",
             "bShipped": false,
             "images" : [
                 
@@ -234,7 +234,7 @@
             "gameId": "5",
             "gameName": "TileVania",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "githubLink" : "https://github.com/Gabrielhcd/TileBros",
             "bShipped": false,
             "images" : [
                 
@@ -243,8 +243,8 @@
             "video": "/TileBrosShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Move down through the levels of the unkonwn while collection as much gold as posible",
-            "description": "This small MetroidVania inspired game focuses on platforming and simple platforming with some familiar mechanics, like jumping, swimmming and ladder climbing. You will encounter some enemies along the way. You can either shoot them or just leave them be. The objective is to traverse across while pickiing the coins and reach the next level.",
-            "learning": "",
+            "description": "This small MetroidVania inspired game focuses on simple platforming with some popular mechanics, like jumping, swimmming and ladder climbing. You will encounter some enemies along the way. You can either shoot them or just leave them be. The objective is to traverse across while pickiing the coins and reach the next level.",
+            "learning": "The game contains multiple levels and the amount of money you collect will persist across them. Of course the player has health that if it reaches 0 you will die and have to start over. The higher the score the better, which mean you will have to collect all coins sppread accross the levels even some hidden or in dangerours places. Some of the assets(sprites) where provided and others like SFX just grabbed from the internet.",
             "stack": [],
             "devTechnology": "Unity",
             "technologies": [
@@ -257,7 +257,7 @@
             "gameId": "6",
             "gameName": "GalaxyWar",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/",
+            "githubLink" : "https://github.com/Gabrielhcd/GalaxyWar",
             "bShipped": false,
             "images" : [
                 
@@ -267,7 +267,7 @@
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Destroy all enemies ships and be the last one flying",
             "description": "Shoot 'Em Up inspired game where you fight waves of enemies that will try to destroy you. Dodging and shooting is the way to destroy the most enemies and survive.",
-            "learning": "",
+            "learning": "This game is a POC based on old arcade games, although the variety of enemies and patters is not that big, the objective was to create something that could serve as a ground work for a bigger game. This means that the waves where made so that different enemy types can be used as well the amount of enemies. There is no level progression is focused on survival, since its more of a infinite game.",
             "stack": [],
             "devTechnology": "Unity",
             "technologies": [
@@ -280,7 +280,7 @@
             "gameId": "7",
             "gameName": "ScapeRocket",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "githubLink" : "https://github.com/Gabrielhcd/ScapeRocket",
             "bShipped": false,
             "images" : [
                 
@@ -303,7 +303,7 @@
             "gameId": "8",
             "gameName": "FunRun",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "githubLink" : "https://github.com/Gabrielhcd/FunRun",
             "bShipped": false,
             "images" : [
                 
@@ -313,7 +313,7 @@
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "See how far can you run while dodging what the world throws at you.",
             "description": "Try to collect as much money as possible without getting hit by the obstacles. In this small infinite runnner game you play as a king that is always trying to get more time to earn more money.",
-            "learning": "",
+            "learning": "The game uses procedural generation to create an infinite space the player runs and tries to collect as much money as possible. To add some challenge the player must avoid the different obstacles that exist on the run, such as shor trip walls on the floor and random type of objects that spawned at the end. Every certain while a small banner will appear that will increase the timer. The apples will make the player faster to recover or inscrease the running speed. Try and keep bigger score each time, but don't get hit too much. Seeing infront will become more tuff as you get hit.",
             "stack": [],
             "devTechnology": "Unity",
             "technologies": [
@@ -326,7 +326,7 @@
             "gameId": "9",
             "gameName": "ShooterBox",
             "platform": "PC",
-            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "githubLink" : "https://github.com/Gabrielhcd/ShooterBox",
             "bShipped": false,
             "images" : [
                 
@@ -336,7 +336,7 @@
             "defaultImg": "./typing-typing-furiously.gif",
             "quickSummary": "Destroy all enemies in the room to secure victory.",
             "description": "Simple FPS where you have to destroy all the enemies in the run to win and live. Get some ammo and test all weapons to find that one that suits you better and destroy all robots.",
-            "learning": "",
+            "learning": "ShooterBox is a FPS POC to try and get some knowledge on shooters using Unity. It has common features like multiple weapons and each with different stats (damage, fire rate, magazine, auto) and a couple type of enemies that move and stay still. Of course the enemies need to be taken down to be able to win the game however if you don't keep up with them, they will keep spawning and overwhelm you with sheer amount. Altough there is only 1 level the objetive was to test the features and keep track for future projects to use it as reference.",
             "stack": [],
             "devTechnology": "Unity",
             "technologies": [

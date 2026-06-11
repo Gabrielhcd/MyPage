@@ -8,6 +8,7 @@ function About() {
         <div>
             <div>
                 <p>This page works mainly as a portfolio and CV somewhat. The objective is to show some small games I have made from either courses/tutorials or from ideas. So far most of them are POCs. Their main focus is to serve for testing and learning.</p>
+                <p>It was made with React + Vite. I am not a fan of FrontEnd so it is still a work in progress, its getting updates from time to time not just in the portfolio content but in the technical aspect.</p>
                 <h5>Each Game Card contains 1 of these icons:</h5>
                 <div className="container">
                     <div className="row">
