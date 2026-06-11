@@ -232,7 +232,7 @@
         },
         {
             "gameId": "5",
-            "gameName": "SnowSurfer",
+            "gameName": "TileVania",
             "platform": "PC",
             "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
             "bShipped": false,
@@ -242,8 +242,100 @@
             "gameTypeIcon": "book",
             "video": "/TileBrosShort.mov",
             "defaultImg": "./typing-typing-furiously.gif",
-            "quickSummary": "MetroidVania inspired game.",
-            "description": "",
+            "quickSummary": "Move down through the levels of the unkonwn while collection as much gold as posible",
+            "description": "This small MetroidVania inspired game focuses on platforming and simple platforming with some familiar mechanics, like jumping, swimmming and ladder climbing. You will encounter some enemies along the way. You can either shoot them or just leave them be. The objective is to traverse across while pickiing the coins and reach the next level.",
+            "learning": "",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "6",
+            "gameName": "GalaxyWar",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/GalaxyWar.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Destroy all enemies ships and be the last one flying",
+            "description": "Shoot 'Em Up inspired game where you fight waves of enemies that will try to destroy you. Dodging and shooting is the way to destroy the most enemies and survive.",
+            "learning": "",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "7",
+            "gameName": "ScapeRocket",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/ScapeRocketShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Venture into different places to find a way out this strange planet.",
+            "description": "In this side scrolling game you control a small space ship that needs to venture throug some tight spaces to be able to leave this new space planet. While thrusting up and keeping balance you have to dodge the different obstacles before reaching the next landing zone.",
+            "learning": "",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "8",
+            "gameName": "FunRun",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/FunRun.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "See how far can you run while dodging what the world throws at you.",
+            "description": "Try to collect as much money as possible without getting hit by the obstacles. In this small infinite runnner game you play as a king that is always trying to get more time to earn more money.",
+            "learning": "",
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
+        },
+        {
+            "gameId": "9",
+            "gameName": "ShooterBox",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/DeliveryGame",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "book",
+            "video": "/ShooterBox.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Destroy all enemies in the room to secure victory.",
+            "description": "Simple FPS where you have to destroy all the enemies in the run to win and live. Get some ammo and test all weapons to find that one that suits you better and destroy all robots.",
             "learning": "",
             "stack": [],
             "devTechnology": "Unity",
