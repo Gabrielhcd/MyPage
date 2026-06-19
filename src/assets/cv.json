@@ -344,6 +344,34 @@
                 "Git"
             ],
             "assets": ""
+        },
+        {
+            "gameId": "10",
+            "gameName": "Obstacli",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/Obstacli",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "hammer",
+            "video": "/ObstacliShort.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Jump and fly your way out, if you can.",
+            "description": "Small prototype based on the game Geometry Dash(GD) by RobTopGames. This game has the basic mechanics from GD applied to a 3D environment, it contains 3 levels to test how well can those mechanics be applied to mevment and jump, which means you can change the direction the movement is being applied from and create obstacles in a new way. Since the original game has complexity in its simplicity it was important to keep that feeling just adding a simple way the Cube can interact with a 3D world without loosing the feeling of focusing on the simple platforming.",
+            "learning": "To be able to make the Player feel that the game keeps the core gameplay but with new additions, the 1st level is a part of the original game, to create a sensation and rhythm with the world, talking about the jumping, speed and distances. The 2nd level is almost the exact same obstacle layout but 3D, some movement to left, right and forward keeping the wolrd values so that the player doesn't loose the pacing from the previous level. The 3rd level is a different concept, a small maze where you can not touch the walls but must find a way out.",
+            "knownIssues": [
+                "The space bar, Jumping button, doesn't reaact inmmediatly in some computers",
+                "The shaders don't work properly in some Windows 11 PCs.",
+                "The exit portal not working"
+            ],
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git"
+            ],
+            "assets": ""
         }
     ],
     "education": {

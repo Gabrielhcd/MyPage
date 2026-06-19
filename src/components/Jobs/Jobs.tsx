@@ -3,6 +3,7 @@ import './Jobs.css'
 import kitty from '../../assets/typing-typing-furiously.gif'
 import booksIcon from '../../assets/books.png'
 import hammerIcon from '../../assets/thor.png'
+import gearsIcon from '../../assets/settings.png'
 import { useState } from 'react';
 import JobDescription from '../JobDescription/JobDescription';
 
@@ -38,6 +39,8 @@ function Jobs(props: JobsProps) {
     if (props.gameTypeIcon == "book") {
         icon = <img src={booksIcon} className='icons' id='jobIcons'/>
     } else if (props.gameTypeIcon == "hammer") {
+        icon = <img src={hammerIcon} className='icons' id='jobIcons'/>
+    } else if (props.gameTypeIcon == "gear") {
         icon = <img src={hammerIcon} className='icons' id='jobIcons'/>
     }
 

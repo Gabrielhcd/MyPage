@@ -29,7 +29,7 @@ function JobDescription(props: JobDescriptionProps) {
     return(
         <>
             <div className='modalBackdrop'></div>
-            <div className='container modal-container-job' onClick={handleContentClick}>
+            <div className='container overflow-auto modal-container-job' onClick={handleContentClick}>
                 <div className='row'>
                     <h3 className='col-8 title'>{props.title}</h3>
                     <button className='closeBtn col-4' onClick={props.onClose}>X</button>
