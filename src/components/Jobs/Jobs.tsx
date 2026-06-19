@@ -41,7 +41,7 @@ function Jobs(props: JobsProps) {
     } else if (props.gameTypeIcon == "hammer") {
         icon = <img src={hammerIcon} className='icons' id='jobIcons'/>
     } else if (props.gameTypeIcon == "gear") {
-        icon = <img src={hammerIcon} className='icons' id='jobIcons'/>
+        icon = <img src={gearsIcon} className='icons' id='jobIcons'/>
     }
 
     if (props.bHasVisual) {
