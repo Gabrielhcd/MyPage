@@ -372,6 +372,36 @@
                 "Git"
             ],
             "assets": ""
+        },
+        {
+            "gameId": "11",
+            "gameName": "Destroyer",
+            "platform": "PC",
+            "githubLink" : "https://github.com/Gabrielhcd/Obstacli",
+            "bShipped": false,
+            "images" : [
+                
+            ],
+            "gameTypeIcon": "hammer",
+            "video": "/Project-Destroyer.mov",
+            "defaultImg": "./typing-typing-furiously.gif",
+            "quickSummary": "Find and collect al the data within the box.",
+            "description": "Top down shooter game where you have to find the data packages spread around while destroying or avoiding the enemies inside the box. The game controls are based on classic asteroid where you con move anywhere while aiming in 360 Deg.",
+            "learning": "This small game objective was to try and test some new mechanics in Unity. The main one was how to use destructible objects and how to mix 3D with 2D (Which was really straight forward). Another one was to create small AI movement and behavior from code only that make the game and enemies feel intelligent within their boundaries. Lastly, into more personal note, different ways to delegate tasks per scripts (higher type of segregation abstraction). And test how much can I script do without having a ton of separated scripts per object and how does this impact both performance and memory management.",
+            "knownIssues": [
+                "The objective UI dissapears when picking certain objects or in certain order.",
+                "Not exactly and issue. But the way the borders interact with different objects is too scatered. This needs rework.",
+                "The background doesnt work as intented."
+            ],
+            "stack": [],
+            "devTechnology": "Unity",
+            "technologies": [
+                "Unity-6.3",
+                "Git",
+                "Aseprite",
+                "Blender-4.5"
+            ],
+            "assets": ""
         }
     ],
     "education": {
